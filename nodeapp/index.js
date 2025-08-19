@@ -2,7 +2,7 @@ var express = require("express");
 var app = express();
 
 app.get("/", function (req, res) {
-  res.send('{ "response": "Hello, Welcome to SIBA Devops Programme!"}');
+  res.send('{ "response": "Hello, Welcome to SIBA Devops Beginners Programme!"}');
 });
 
 //listen to port 3000 by default
